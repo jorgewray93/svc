@@ -1,0 +1,14 @@
+<?php
+/*
+** implements hook_menu()
+*/
+function svc_control_version_menu(){
+    $items = [];
+    $items['admin/config/svc'] = array(
+        'title' => 'SVC settings',
+        'page_callback'=> '',
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+?>

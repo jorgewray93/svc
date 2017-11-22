@@ -1,0 +1,6 @@
+name = Control version Core
+description = Main module to manage the version of the stors
+core = 7.x
+package = SVC
+php = 7.0
+version = 7.x-1.0-dev
